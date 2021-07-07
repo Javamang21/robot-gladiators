@@ -94,3 +94,15 @@ for (var i = 0; i < enemyNames.length; i++) {
     break;
   }
 }
+
+// We are adding a window prompt to ask the player if he would like to play again. If he loses The function will pass through the else conditional above and the user will be prompted that he just lost.
+
+
+// We are passing through a window alert if the player agrees to skip the fight or kills and enemy, asking the user if they would like to visit "The SHop" where the user an refill health, add to there attack power, or Leave. 
+// Based off of there choice the following will happen. 
+
+// For this part of the lesson we are creating new functions that can be called upon depending on the state of the user. 
+// If The user's robot dies then the endGame() function will be called upon. This function will display player stats that were accumulated, and offer the player to play again. 
+// That is where the startGame() function will be called which will start the game over from scratch again. Now if the user kills a robot in the 1st round then we can create the shop fucntion. 
+// The shop() function will grant the player the ability to upgrade his robot 
+
